@@ -24,9 +24,15 @@ Client:
 
 You're more than welcome to clone the repo and create some PRs or an Issue if you got suggestions. Who knows what will happen to this project?
 
+## How can I get this up & running?
+
+1. Download the code
+2. Run `npm start`
+3. Enjoy ;]
+
 ## TO DO:
 
-- [x] Commit v1 (_soon_)
+- [x] Commit v1
 - [ ] More than 2 players at the same time xD
 - [ ] Support for login (Discord or some other account system)
 - [ ] Actually host this online

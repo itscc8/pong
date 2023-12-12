@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pong by CC8</title>
     <style>
-      h2 {
-        color: red;
+      body {
+        background-color: black;
+        color: white;
       }
 
       p,
@@ -16,14 +17,24 @@
       }
 
       a {
-        color: blue;
+        color: lightblue;
+      }
+
+      .center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
       }
     </style>
     <script defer src="/error/main.js"></script>
   </head>
   <body>
-    <h2 id="error">.</h2>
-    <p id="redirect">.</p>
-    <a href="/">Click here</a>
+    <div class="center">
+      <h2 id="error">.</h2>
+      <p id="redirect">Redirecting...</p>
+      <a href="/">Click here</a>
+    </div>
   </body>
 </html>

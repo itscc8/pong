@@ -10,8 +10,14 @@
         color: white;
       }
 
-      #game {
-        border: 1px solid white;
+      p,
+      a {
+        text-decoration: underline;
+        font-style: italic;
+      }
+
+      a {
+        color: lightblue;
       }
 
       .center {
@@ -22,18 +28,13 @@
         height: 100vh;
       }
     </style>
-    <script
-      src="https://cdn.socket.io/4.7.2/socket.io.min.js"
-      integrity="sha384-mZLF4UVrpi/QTWPA7BjNPEnkIfRFn4ZEO3Qt/HFklTJBj/gBOV8G3HcKn4NfQblz"
-      crossorigin="anonymous"
-    ></script>
-    <script defer src="/game/main.js"></script>
+    <script defer src="/winner/main.js"></script>
   </head>
   <body>
     <div class="center">
-      <h2 id="playerId">Player x</h2>
-      <h1 id="score">0 : 0</h1>
-      <canvas id="game" width="600" height="300"></canvas>
+      <h1 id="winner">Player x won!!!</h1>
+      <p id="redirect">Redirecting...</p>
+      <a href="/">Click here</a>
     </div>
   </body>
 </html>
