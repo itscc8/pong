@@ -36,3 +36,4 @@ You're more than welcome to clone the repo and create some PRs or an Issue if yo
 - [ ] More than 2 players at the same time xD
 - [ ] Support for login (Discord or some other account system)
 - [ ] Actually host this online
+- [ ] Clean up the code
